@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="data:,">
+		<meta charset="UTF-8" >
+		<meta http-equiv="refresh" content="10">
+		<style>
+			body { text-align: center; font-family: "Trebuchet MS", Arial;}
+			table { border-collapse: collapse; width: 60px; margin-left:auto; margin-right:auto; }
+			th { padding: 12px; background-color: #0043af; color: white; }
+			tr { border: 1px solid #ddd; padding: 12px; }
+			tr:hover { background-color: #bcbcbc; }
+			td { border: none; padding: 12px; }
+			.sensor { color:white; font-weight: bold; background-color: #bcbcbc; padding: 1px;}
+		</style>
+	</head>
+	<body>
+		<h1>数据展示</h1>
+		<table>
+			<tr>
+				<th>数据类型</th>
+				<th>当前值</th>
+			</tr>
+			<tr>
+				<td>累加值</td>
+				<td>
+					<span class="sensor">%s</span>
+				</td>
+			</tr>
+			<tr>
+				<td>设备状态</td>
+				<td>
+					<span class="sensor">%s</span>
+				</td>
+			</tr>
+			<tr>
+				<td>湿度</td>
+				<td>
+					<span class="sensor">%s%%</span>
+				</td>
+			</tr>
+			<tr>
+				<td>温度</td>
+				<td>
+					<span class="sensor">%s℃</span>
+				</td>
+			</tr>
+        </table>>
+	</body>
+</html>
